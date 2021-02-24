@@ -234,6 +234,10 @@ Short-form of the code above. In each rule we are telling the last grid item to 
     flex: 0 1 200px;
 }
 
+.contact-info {
+    margin-bottom: 10%;
+}
+
 .about-graphic {
     display: block;
     margin: auto;
