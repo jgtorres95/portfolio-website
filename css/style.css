@@ -137,6 +137,7 @@ button:focus,
 .page-header__item:first-child {
     width: 200px;
     height: auto;
+    max-height: 200px;
 }
 
 .page-header__item:last-child{
