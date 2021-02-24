@@ -224,7 +224,8 @@ Short-form of the code above. In each rule we are telling the last grid item to 
     }
 }
 
-.about-section {
+.about-section,
+.contact-info {
     display: flex;
     flex-direction: column;
     text-align: center;
