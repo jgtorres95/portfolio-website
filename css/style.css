@@ -297,7 +297,7 @@ Short-form of the code above. In each rule we are telling the last grid item to 
 
 .cloud-left {
     animation: 30s cloud-move-reverse var(--animation-infinite); 
-
+}
 .work-header {
     text-align: center;
 }
