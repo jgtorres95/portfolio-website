@@ -302,3 +302,11 @@ Short-form of the code above. In each rule we are telling the last grid item to 
     text-align: center;
 }
 
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
