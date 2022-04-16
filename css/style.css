@@ -169,7 +169,7 @@ button:focus,
 .grid {
     display: grid;
     /* grid-template-columns: 300px 300px 300px; fractions are better than pixels - they are responsive */
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     margin: 0px;
 }
@@ -188,11 +188,11 @@ grid__item:last-child {
     grid-row-end: 3;
  } 
 Short-form of the code above. In each rule we are telling the last grid item to start and end in column 3 and also to start in row 1 and end in row 3 */
-.grid__item:last-child {
+/*.grid__item:last-child {
      grid-column: 3 / 3;
      grid-row: 1 / 3;
 }
-}
+}*/
 
 /* Media query for displays smaller than 500px */
 @media all and (max-width: 500px) {
