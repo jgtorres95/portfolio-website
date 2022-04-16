@@ -214,10 +214,10 @@ Short-form of the code above. In each rule we are telling the last grid item to 
         grid-gap: 10px;
     }
 
-    .grid__item:last-child {
+    /*.grid__item:last-child {
         grid-column: auto / auto;
         grid-row: auto / auto; 
-    }
+    }*/
 
     h1 {
         font-size: 22px; 
@@ -310,3 +310,4 @@ Short-form of the code above. In each rule we are telling the last grid item to 
     height: auto;
 }
 
+}
